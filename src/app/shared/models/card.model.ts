@@ -1,11 +1,30 @@
 export class Card {
-  public name: string;
-  public description: string;
+  public Cod: string;
+  public Nombre: string;
+  public Tipo: string;
+  public Frec: string;
+  public Raza: string;
+  public Atr: string;
+  public Arte: string;
   public imagePath: string;
 
-  constructor(name: string, description: string, imagePath: string) {
-    this.name = name;
-    this.description = description;
-    this.imagePath = imagePath;
+  constructor(
+    Cod: string,
+    Nombre: string,
+    Tipo: string,
+    Frec: string,
+    Raza: string,
+    Atr: string,
+    Arte: string,
+    imagePath: string
+) {
+    this.Cod = Cod
+    this.Nombre = Nombre
+    this.Tipo = Tipo
+    this.Frec = Frec
+    this.Raza = Raza
+    this.Atr = Atr
+    this.Arte = Arte
+    this.imagePath = imagePath
   }
 }

@@ -8,10 +8,10 @@ import { Card } from '../shared/models/card.model';
 })
 export class CardListComponent {
   cards: Card[] = [
-    new Card('CACA', 'awda', '../../assets/271.webp'),
-    new Card('CACA', 'awda', '../../assets/271.webp'),
-    new Card('CACA', 'awda', '../../assets/271.webp'),
-    new Card('CACA', 'awda', '../../assets/271.webp'),
+    new Card('CACA', 'awda', '../../assets/271.webp','','','','',''),
+    new Card('CACA', 'awda', '../../assets/271.webp','','','','',''),
+    new Card('CACA', 'awda', '../../assets/271.webp','','','','',''),
+    new Card('CACA', 'awda', '../../assets/271.webp','','','','',''),
 
   ];
 
