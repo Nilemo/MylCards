@@ -1,14 +1,10 @@
 <div class="row">
+  <app-card-filter></app-card-filter>
   <div class="col-xs-12 my-4">
     <button class="btn btn-success">New Card</button>
   </div>
-  <div class="col-xs-12">
-    <div class="row">
-      <a href="#" class="card border-0 " style="max-width: 25%;" *ngFor="let card of cards">
-        <img src="{{card.Tipo}}" alt="" class="img-responsive" >
-      </a>
-    </div>
-
-    <app-card></app-card>
+  <div class="col-xs-12" *ngFor="let card of cards">
+      <app-card *ngFor="let card of cards" [card]="card">
+      </app-card>
   </div>
 </div>

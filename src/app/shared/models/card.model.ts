@@ -1,4 +1,4 @@
-export class Card {
+export class CardModel {
   public Cod: string;
   public Nombre: string;
   public Tipo: string;

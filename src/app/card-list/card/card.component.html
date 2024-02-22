@@ -1,1 +1,16 @@
-<p>card works!</p>
+<!--  -->
+<div class="card bg-light mx-auto" style="max-width: 80%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <a [routerLink]="['card-detail', card.id]" class="card border-0 m-4 " >
+        <img src="{{card.imagePath}}" alt="" class="img-responsive" >
+      </a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{card.Nombre}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
